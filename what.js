@@ -1,4 +1,4 @@
-var textarea = document.getElementById('what');
+var textarea = document.getElementById("what");
 var form = document.getElementsByTagName('form')[0];
 textarea.addEventListener('change', function() {
 	form.submit();

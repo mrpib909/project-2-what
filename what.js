@@ -1,10 +1,9 @@
-var post = document.getElementById('post');
+var textarea = document.getElementById('what');
 var form = document.getElementsByTagName('form')[0];
-post.addEventListener('click', function() {
-		var what = location.search;
-		form.submit();
-		what = what.replace('?what=', '');
-		what = what.replace(/\+/g, ' ');
-		what = decodeURIComponent(what);
-		textarea.innerHTML = what;
+textarea.addEventListener('change', function() {
+	form.submit();
+	var what = location.search;
+	what = what.replace('?what=', '');
+	what = what.replace(/\+/g, ' ');
+  textarea.value = what;
 }, false);

@@ -1,0 +1,36 @@
+body{
+ background-color: lightgrey;
+  margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+h1{
+ color: white;
+    background-color: #a61407;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    height: 50px;
+    position: relative;
+    padding: 20px;
+}
+
+button{
+ width: 150xspx;
+    height: 50px;
+    background-color: #a61407;
+    color: white;
+    position: absolute;
+    left: 45%;
+    top: 500px;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
+div{
+ margin-top: 30px;   
+}
+iframe{
+ width: 100%;
+    
+}
